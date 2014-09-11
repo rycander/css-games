@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hanoi</title>
+    <link rel="stylesheet" type="text/css" href="../css/hanoi.css">
+  </head>
+  <body>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!-- Whackjobs at GithubPages don't understand symlinks... -->
+    <script src="../js/hanoi-core.js"></script>
+    <script src="../js/hanoi-widget.js"></script>
+    
+    <div class='board'></div>
+    
+    <script>
+    $(function() {
+      var $el = $('.board');
+      var widget = new Hanoi.Widget(new Hanoi.Game(), $el);
+      widget.play();    
+    })
+    </script>
+  </body>
+</html>

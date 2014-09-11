@@ -1,0 +1,15 @@
+.board * {
+  padding: 10px;
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}
+
+.empty {
+  background-color: black;
+}

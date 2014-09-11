@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.square {
+  display: inline-block;
+  border: thin black solid;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+span {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+}

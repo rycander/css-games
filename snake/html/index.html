@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="../css/snake.css">
+  </head>
+  <body>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!-- Whackjobs at GithubPages don't understand symlinks... -->
+    <script src="../js/snake.js"></script>
+    <script src="../js/board.js"></script>
+    <script src="../js/view.js"></script>
+    
+    <div class='grid'></div>
+    
+    <script>
+      $(function() {
+        var $el = $('.grid');
+        //var widget = new SnakeGame.View(new SnakeGame.Board(), $el);
+        //widget.play();
+      })
+    </script>
+  </body>
+</html>

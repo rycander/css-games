@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.pile {
+  border: thin solid purple;
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.disk {
+  display: block;
+  margin: auto;
+  height: 40px;
+}
